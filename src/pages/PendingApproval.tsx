@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// Link removed as it was unused
 import { useAuthStore } from '../lib/store';
 import { Clock, LogOut, Phone, Facebook } from 'lucide-react';
 

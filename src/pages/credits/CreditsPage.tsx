@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
 import { useAuthStore } from '../../lib/store';
-import { Wallet, ArrowUpCircle, ArrowDownCircle, Clock, CheckCircle2, XCircle, History } from 'lucide-react';
-import type { Profile, Transaction } from '../../types';
+import { Wallet, ArrowUpCircle, ArrowDownCircle, Clock, CheckCircle2, XCircle } from 'lucide-react';
+import type { Transaction } from '../../types';
 import clsx from 'clsx';
 
 interface TransactionRequest {
